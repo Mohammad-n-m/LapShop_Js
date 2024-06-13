@@ -191,7 +191,7 @@ function change_count_of_product(id_product){
               user_Basket[indexBasket].amount=all_product_array[indexBasket].value;
             }
             else{
-         alert('wrong! You choiced hight amount of product!!!');
+         alert('wrong! You selected hight amount of product!!!');
          user_Basket[indexBasket].amount=maxOfProduct;
         }
         
